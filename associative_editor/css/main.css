@@ -1,0 +1,76 @@
+:root {
+	--home_page_bg_color: #333333;
+	--card_header_bg_color: #444444;
+	--btn_color: #333333;
+	--btn_hover_bg_color: #444444;
+	--btn_hover_text_color: white;
+	--to_review_color: #d35400;
+	--on_review_color: #154360;
+	--all_review_done: #800080;
+	--informed_me: #996600;
+	--resubmit: #8c1aff;
+}
+
+.login:hover {
+	background: #ccc;
+	color: #333;
+	transition: 0.3s;
+}
+
+/* eikhan theke amr coding suru tar age rahat er coding */
+.header_footer_bg_color {
+	background-color: var(--home_page_bg_color);
+}
+.card_header {
+	background-color: var(--card_header_bg_color);
+}
+/* .btn-success {
+	background-color: var(--btn_color);
+} */
+.btn:hover {
+	/* background-color: var(--btn_hover_bg_color); */
+	color: var(--btn_hover_text_color);
+	font-weight: bold;
+	transition: 0.5s;
+}
+.a_hover {
+	color: white;
+	transition: all 0.5s;
+}
+.a_hover:hover {
+	border-radius: 5px;
+}
+textarea {
+	border: 1px solid #999999;
+	width: 100%;
+	/* margin:5px 0; */
+	padding: 3px;
+	box-sizing: content-box;
+}
+.to_review {
+	color: var(--to_review_color);
+}
+.on_review {
+	color: var(--on_review_color);
+}
+.all_review_done {
+	color: var(--all_review_done);
+}
+.informed_me {
+	color: var(--informed_me);
+}
+.resubmit {
+	color: var(--resubmit);
+}
+.home_anker {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.home_anker:hover {
+	/* font-size: 18px; */
+	/* background-color: black; */
+	color: white;
+	padding: 2px;
+	border-radius: 5px;
+}
